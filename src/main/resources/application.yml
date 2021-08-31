@@ -1,0 +1,18 @@
+spring:
+    application:
+        name: security-module-oauth2
+        
+    datasource:
+        driverClassName: com.mysql.cj.jdbc.Driver
+        url: "jdbc:mysql://database-1.cgwfc0wjek1g.ap-south-1.rds.amazonaws.com:3306/sbouath2db"
+        username: "admin"
+        password: "password"
+       
+                   
+config:
+    oauth2:
+        clientid: mdits
+        clientSecret: password
+        publicKey: -----BEGIN PUBLIC KEY-----MIIBIjANBgkqhkiG9w0BAQEFAAOCAQ8AMIIBCgKCAQEAoBkiP8anow4D4A/3vIQYKART4MdiEaz8575OCjmToEEn+Nk8XMq+1PazsKHvKKCXiJe4uatmxO/9oO7r2tCk+zRDi+lqCNgSCIO8oUvASc0LnGxiQ3xsa2y7YZnNls93SzcJ3GmKrJxON/C+oDUN7nVHyHkNijk3sc7OzBNzm7ubQL1xbaCwK5qHjI6dXbCXf2UXi6T50EK+nmlUq1tLVcrL7iGehDeusmnBcDwWLYyPGhk1Dn2v21rIyJyc9btbO8V/VHwhkddQimwC0XyBMlN13Sd6/B9XU7KdGtsx+M2gf64G1yteLYWZX2hSvQSx1B4CReQnuJau2hEZIzBZGwIDAQAB-----END PUBLIC KEY-----
+        privateKey: -----BEGIN PRIVATE KEY-----MIIEvgIBADANBgkqhkiG9w0BAQEFAASCBKgwggSkAgEAAoIBAQCgGSI/xqejDgPgD/e8hBgoBFPgx2IRrPznvk4KOZOgQSf42Txcyr7U9rOwoe8ooJeIl7i5q2bE7/2g7uva0KT7NEOL6WoI2BIIg7yhS8BJzQucbGJDfGxrbLthmc2Wz3dLNwncaYqsnE438L6gNQ3udUfIeQ2KOTexzs7ME3Obu5tAvXFtoLArmoeMjp1dsJd/ZReLpPnQQr6eaVSrW0tVysvuIZ6EN66yacFwPBYtjI8aGTUOfa/bWsjInJz1u1s7xX9UfCGR11CKbALRfIEyU3XdJ3r8H1dTsp0a2zH4zaB/rgbXK14thZlfaFK9BLHUHgJF5Ce4lq7aERkjMFkbAgMBAAECggEADjjtX/kH32ZZVchVW7voYXWw9eEAh0100imHyUTAJpZjNKonwJ6KQWUBJYndMyDBFXNVB7mAUbJ4N5nB/hhW77H+5ikAMHTxdSwuz61pEaVTiLvgJtqgzxJDuzHsn58im93x1FDT7u2bzUBnztenuy1UCS0n1MWsevFCUcLQnF7z+Ej+Ghzo3W70l4QlP38k+aRFqNGZvUNIU/Y4U5k8eGSPyCZo+EvZQpOqnUytZ1/aB4Uidj8AR2of8I2T7o1YXWNa4OzM6/srVH4WNLRkSRJa9dXpMC7Y3AlT3kCE2CThf//keQKV6Y7tQ8J8irhjNMM+1j84CwIBfOHjHqkUoQKBgQDk3QD27+BxXJKIFIOuWw18TNzeYJWMyESsrSO4isxGTH+BK3TlQKHDpHvzA0VwrrdCoSFWana22p2SEkYLAeMNcMG8xDHCL+Zk2roy+IGmp0YalXXI2yRLQ0thOD2gsxzgcWSmVZFqoH5E+ElWhOS73BTctwR4csUwRPngDV29UwKBgQCzFM9H9rcObOVCdc/NhSBQuDzMr/k9ap5oKL1JYae6ekErxgIQ/9WFHE+LuRCO+t1T4ya+ZKT7W+riWIZjsGzMT0rOP2XRO8Un2oxRWg2KtxVFHDZbD9SSDJ0PDZotbbdcjern/FKAbZipgDIOMcCL8qbBxBOOz+K1mF8/ZJw0GQKBgGO8K/9w6c59GR5UUk5ZP7c7h8UhMgr3+3WEvlxdoEfCbo5L8dU2JUitFZcBhfFlMlfHAFA4dSOagbB2Zi/F0ry4trUcitKlLTImX552zYlivBo5p+qwFVD3MpJbf//YDm2A/Ou/vm9JIb3MtakOoN99OVo2J6yV13kBliMdsAwhAoGBAJPEPwl1dTUM+9tsFOzTxYd1jo2jQri/yjfOLepoDxubFz2EZF4ci9YLN0Pmj9g6/ffjPivqJgxWmyjrvPBzOkMXxnUK8PvGIvewqQnTkcr9KSrejad0F4XvrIUoRyjnGF7hp4yGspjQViC+7A60VNnlfl3yaeT0enA3a5iGbzG5AoGBALfofHZ04T7uBfBL2sKWZFb7c75wJfcTaRFWzKELZ1rBK4Klm7qmzrrniZJ9J2dQshdz3sQPRMullp4DnLRTmxNfBShXbksonBOeJt2EuiEBtXBbYED3S2v6t73RAzmqnCkGKSle25mDp73w7zmSOqrLD7a7pH2WUGKcI9YgrEAU-----END PRIVATE KEY-----
+        token-validity-in-seconds: 86400
